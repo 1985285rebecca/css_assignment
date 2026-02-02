@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Researcher Profile Page with STEM Data")
+st.title("Researcher Profile Page with Supply Chain Data")
 
 # Collect basic information
 name = "Dr. Jane Doe"
