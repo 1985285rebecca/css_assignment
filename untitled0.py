@@ -7,9 +7,9 @@ import numpy as np
 st.title("Researcher Profile Page with Supply Chain Data")
 
 # Collect basic information
-name = "Dr. Jane Doe"
-field = "Astrophysics"
-institution = "University of Science"
+name = "Rebecca Setino"
+field = "Supply Chain Management"
+institution = "Wits University"
 
 # Display basic profile information
 st.header("Researcher Overview")
@@ -17,10 +17,7 @@ st.write(f"**Name:** {name}")
 st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
-st.image(
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-    caption="Nature (Pixabay)"
-)
+
 
 # Add a section for publications
 st.header("Publications")
@@ -117,6 +114,6 @@ elif data_option == "Weather Data":
 
 # Add a contact section
 st.header("Contact Information")
-email = "jane.doe@example.com"
+email = "rebecca.setino@gmail.com"
 st.write(f"You can reach {name} at {email}.")
 
